@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to left , #abc3d1, #86b9d9, #46a2db, #2378ad, #0a5f94, #033b5e, #001e30); /* Aqui defino a cor de fundo da minha página. 
+	Caso queira acrescentar uma imagem basta digitar background-image:  url
+	*/
+
+}
+a{	text-decoration: none; /* Aqui retirei o sublinhado dos links*/
+}
+
+.menu{
+	width: 1000px;  /* Aqui defini o espaçamento entre o topo e a barra de menus*/
+	margin: 30px auto; /* Aqui defini o espaçamento da margem com o menu e do menu com o texto*/
+	text-align: center; /* Aqui alinhei o menu no centro*/
+	background: transparent;
+
+
+}
+.menu > a{
+		color: white; /* Aqui defini a cor do menu*/
+		font-size: 20px; /* Aqui defini o tamanho do menu*/
+		margin: 0 10px; /* Aqui defini o espaçamento entre os itens do menu*/
+		background: transparent;
+		font-family: cursive;
+}
+
+.Artigo > h1{ /* Aqui eu seleciono a div h1 apenas*/
+	color: white;
+	text-align: center;
+	width: 1280px;
+	margin: 90px auto;
+	background: transparent;
+	font-family: Papyrus;
+}
+
+.Artigo > p { /* Aqui eu seleciono a div onde o texto esta*/
+	color: white;
+	text-align: center; /* Aqui alinhei o texto div no centro*/
+	width: 1280px; /* Aqui é a largura das laterais com o texto*/
+	margin: 50px auto; /* Aqui centralizei cima/baixo */
+	background:transparent;
+} 
+
+
+.Other > h1{
+	color: white;
+	background: transparent;
+	text-align: center;
+	width: 1280 px;
+	margin: 90px;
+	font-family: Papyrus; /*aqui consegui colocar a fonte de acordo com o tipo (desenho)desejado*/
+	font-style: normal; /* aqui deixou padrão ou itálico*/
+	font-weight: normal; /* aqui posso deixar padrão ou normal*/
+
+}
+.Other > p{
+
+	color:white;
+	background: transparent;
+	text-align: center;
+	font-size: 15px;
+	margin: 90px;
+	width: 1280p;
+	font-family: "Lucida Handwriting", "brush script M7", cursive; /* aqui consegui colocar
+	uma fonte de tipo manuscrita. As fontes eu posso pesquisar no w3 school*/
+	font-variant: small-caps; /* Aqui consigo deixar as letras quase maíusculas, mas não do
+	mesmo tamanho de uma maiúscula mesmo*/
+}
+
+
